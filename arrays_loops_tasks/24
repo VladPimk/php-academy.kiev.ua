@@ -1,0 +1,3 @@
+<?php
+$str=589963211479;
+echo substr_count($str, 9);
