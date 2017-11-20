@@ -1,0 +1,10 @@
+<?php
+$arr = ['green'=>'зеленый', 'red'=>'красный','blue'=>'голубой'];
+$en = [];
+$ru = [];
+foreach ($arr as $itemRu=>$itemEn) {
+    $en[] = $itemEn;
+    $ru[] = $itemRu;
+}
+print_r($en).'<br>';
+print_r($ru);
