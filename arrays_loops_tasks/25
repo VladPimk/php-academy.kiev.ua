@@ -1,0 +1,19 @@
+<?php
+$min = rand(5, 55);
+$max = rand(56,120);
+$a = range($min, $max);
+foreach($a as $el) {
+    if($el>= $max) {
+        echo "Max - " . $el;
+        echo "<br>";
+        $b = $max;
+    }
+    elseif($el <= $min) {
+        echo "Min - " . $el;
+        echo "<br>";
+        $c = $min;
+    }
+    else continue;
+}
+
+echo "Swap"."<br>". "Max = ". $c."<br>" . "Min = ". $b;
